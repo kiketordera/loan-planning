@@ -6,7 +6,8 @@ It receives a JSON object with the parameters for the planning and responds with
 Example of JSON structure allowed in the POST request:
 ```
  {
-  "loanAmount": "5000", "nominalRate": "5.0",
+  "loanAmount": "5000", 
+  "nominalRate": "5.0",
   "duration": 24,
   "startDate": "2018-01-01T00:00:01Z"
 }

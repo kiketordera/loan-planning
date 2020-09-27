@@ -77,7 +77,7 @@ docker run -p 8080:8080 loanplanning
 Then you can make POST request with the structure shown above. For example:
 
 ```
-curl -H "Content-Type: application/json" -X POST -d '{"loanAmount":"5000","nominalRate":"5.0","duration":"24"}' localhost:8080
+curl -H "Content-Type: application/json" -X POST -d '{"loanAmount":"5000","nominalRate":"5.0","duration":"24","startDate":"2018-01-01T00:00:01Z"}' localhost:8080
 ```
 
 

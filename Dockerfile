@@ -4,8 +4,8 @@ ENV GIN_MODE=release
 
 RUN apk update && apk add git && apk add ca-certificates
 
-COPY . $GOPATH/src/github.com/kiketordera/loan-planning/
-WORKDIR $GOPATH/src/github.com/kiketordera/loan-planning/
+COPY . .
+WORKDIR /
 
 
 RUN go get -d -v $GOPATH/src/github.com/kiketordera/loan-planning

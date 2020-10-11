@@ -7,7 +7,6 @@ RUN apk update && apk add git && apk add ca-certificates
 COPY . .
 WORKDIR /
 
-
 RUN go get -d -v $GOPATH/src/github.com/kiketordera/loan-planning
 
 
